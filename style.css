@@ -1,0 +1,59 @@
+.gallery{
+  border-style: solid;
+  width: 500px;
+  height: 550px;
+  position: relative;
+}
+.images{
+  position: absolute;
+  left: 20%;
+  padding-top: 10px;
+
+}
+.dots{
+  position: absolute;
+  bottom: 20px;
+  left: 45%;
+
+}
+.buttons{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+.images .current{
+  display: block;
+}
+.image{
+  display: none;
+}
+img{
+  width: 300px;
+  height: 500px;
+}
+.dots span{
+  color: gray;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+
+}
+
+.buttons button{
+  margin: 0 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.dots .current{
+  color: green;
+}
