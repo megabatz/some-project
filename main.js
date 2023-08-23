@@ -7,6 +7,10 @@ const imgUrls = [
   'https://img3.akspic.ru/previews/7/4/2/8/6/168247/168247-kosti_3d-igra_v_kosti_3d-azartnaya_igra-pitevaya_igra-kazino-500x.jpg',
 ];
 
+// Hello world
+// Some another comment
+// etc
+
 const gallery = document.querySelector('.gallery');
 const images = document.querySelector('.images');
 const dots = document.querySelector('.dots');
